@@ -142,7 +142,7 @@ export default function Home() {
                     <FlagVertical />
                     <FlagHorizontal />
                     <FlagTitleContainer>
-                        <Image src={HomePathIcon} height="15px" width="14px" />
+                        <Image src={HomePathIcon} height="15.15px" width="14.02px" />
                         <FlagTitleText>Public Auction</FlagTitleText>
                     </FlagTitleContainer>
                     <FlagDetailsContainer>

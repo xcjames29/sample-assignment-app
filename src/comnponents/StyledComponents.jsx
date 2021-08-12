@@ -16,7 +16,7 @@ export const MainContainer = styled.div`
 export const TopNav = styled.div`
     width: 100vw;
     height: 16.6vh;
-    min-height: 200px;
+    min-height: 240px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,6 +38,10 @@ export const NavItem = styled.div`
 export const HeaderSmall = styled.p`
     font-weight: 200;
     font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #484848;
 `;
 
 export const HeaderBig = styled.p`
@@ -47,7 +51,7 @@ export const HeaderBig = styled.p`
     line-height: 69px;
     text-align: center;
     letter-spacing: 2px;
-
+    color: #171518;
 `;
 
 export const BottomNav = styled.div`
@@ -86,9 +90,8 @@ export const HighOpacityNav = styled.div`
     height: 100%;
     display: flex;
     background-color:rgba(255, 255, 255, 0.5);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
 `;
 
 export const HighOpacityNavItems = styled.div`
@@ -139,6 +142,7 @@ export const HalfCircle = styled.div`
     background-color: white;
     border-radius: 248px;
     left: ${props => props.pos === "left" ? "-208px" : "calc(100vw - 40px)"};
+    bottom: 595.65px;
     cursor: pointer;
     &:hover{
         transform: scale(1.3);
@@ -150,7 +154,6 @@ export const NeighborText = styled.p`
     height: 27px;
     left: 446px;
     bottom: 603px;
-
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -226,10 +229,8 @@ export const FlagMarketValueText = styled.p`
     font-weight: 300;
     font-size: 21px;
     line-height: 31px;
-
     text-align: center;
     letter-spacing: 2.33333px;
-
     color: #171518;
 `;
 
@@ -253,6 +254,7 @@ export const FlagMiddleStreetAddress = styled.p`
     line-height: 33px;
     letter-spacing: 1.83px;
     text-align: center;
+    color: #171518;
 `;
 
 export const FlagMiddleAddress = styled.p`
@@ -261,4 +263,5 @@ export const FlagMiddleAddress = styled.p`
     line-height: 18px;
     letter-spacing: 2px;
     text-align: center;
+    color: #171518;
 `;
