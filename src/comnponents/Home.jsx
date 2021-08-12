@@ -48,7 +48,7 @@ export default function Home() {
                     <HeaderSmall>Reserve Price</HeaderSmall>
                 </NavItem>
                 <NavItem>
-                    <Image src={HomeIcon} height="89.56px" width="75.81px" />
+                    <Image src={HomeIcon} height="89.56px" width="72.34px" />
                 </NavItem>
             </TopNav>
             <BottomNav>
@@ -70,7 +70,7 @@ export default function Home() {
                 <HighOpacityNav>
                     <HighOpacityNavItems>
                         <ImageWrapper>
-                            <Image src={PossitiveTickerIcon} />
+                            <Image src={PossitiveTickerIcon} height="13.03px" width="13.63px" />
                         </ImageWrapper>
                         <TextWrapper>
                             <BottomNavTitle>{detailState.currentData.streetAddress?detailState.currentData.streetAddress:""}</BottomNavTitle>
@@ -82,7 +82,7 @@ export default function Home() {
                     </HighOpacityNavItems>
                     <HighOpacityNavItems>
                         <ImageWrapper>
-                            <Image src={NegativeTickerIcon} />
+                            <Image src={NegativeTickerIcon} height="13.87px" width="13.27px" />
                         </ImageWrapper>
                         <TextWrapper>
                             <BottomNavTitle>{detailState.otherNearby[0]?detailState.otherNearby[0].streetAddress:""}</BottomNavTitle>
@@ -94,7 +94,7 @@ export default function Home() {
                     </HighOpacityNavItems>
                     <HighOpacityNavItems>
                         <ImageWrapper>
-                            <Image src={NeutralTickerIcon} />
+                            <Image src={NeutralTickerIcon} height="19.19px" width="9.81px"/>
                         </ImageWrapper>
                         <TextWrapper>
                             <BottomNavTitle>{detailState.otherNearby[1]?detailState.otherNearby[1].streetAddress:""}</BottomNavTitle>
@@ -106,7 +106,7 @@ export default function Home() {
                     </HighOpacityNavItems>
                     <HighOpacityNavItems>
                         <ImageWrapper>
-                            <Image src={PossitiveTickerIcon} />
+                            <Image src={PossitiveTickerIcon} height="13.03px" width="13.63px" />
                         </ImageWrapper>
                         <TextWrapper>
                             <BottomNavTitle>{detailState.otherNearby[2]?detailState.otherNearby[2].streetAddress:""}</BottomNavTitle>

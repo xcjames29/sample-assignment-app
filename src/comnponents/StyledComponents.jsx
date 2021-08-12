@@ -136,8 +136,8 @@ export const DisplayContainer = styled.div`
 `;
 
 export const HalfCircle = styled.div`
-    height: 248px;
-    width: 248px;
+    height: 248.56px;
+    width: 248.72px;
     position: absolute;
     background-color: white;
     border-radius: 248px;
