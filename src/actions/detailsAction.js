@@ -17,7 +17,7 @@ export const getDataSuccess = (data) =>({
     payload: data
 })
 
-const URL = "http://localhost:8111/details"
+const URL = "https://assignment-backend-clark.herokuapp.com/details"
 
 export const getDataFromAPI = ()=>{
     return async function (dispatch,getState,args){
